@@ -1,0 +1,26 @@
+header
+  .hero-unit
+    h1= title
+    p They do exist...
+.container
+  #messages.row
+    #no-js.alert.alert-danger Enable JavaScript in your Browser to run this app!
+    #is-html5-supported.alert.alert-danger Your browser is not compatible with this app :(
+  form#upload.row(action='/upload', method='POST', enctype='multipart/form-data')
+    #instructions
+      ol
+        h4 Instructions
+        li Drag and drop Word Documents (.doc) into this box area
+        li Use the dropdown to change what file type you wish to convert to
+        li When finished adding files, click on "Upload & Convert"
+        li Right click on "Download file" and click "Save Link As" when your download finishes
+    table#files.table
+  .row
+    button(type="submit")#convert.btn.btn-primary.btn-large
+      i.icon-upload.icon-white
+      span Upload & Convert
+    button(type="button")#remove.btn.btn-large.btn-danger
+      i.icon-trash.icon-white
+      span Remove All Files
+  
+  !=partial('partials/scripts')

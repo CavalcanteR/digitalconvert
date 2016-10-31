@@ -1,0 +1,21 @@
+{
+    "name": "Gurusoft: Digital Convert formats PDF, Word and more"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "async":"0.1.18",
+      "oauth":"0.9.14",
+      "gdata":">=0.1.0",
+      "events":">=1.1.1", 
+      "express":"2.5.8",
+      "less":">= 0.0.1",
+      "jade":">= 0.0.1",
+      "request":"2.9.202",
+      "socket.io":"0.9.6",
+      "creds":">=1.0.0"
+  },
+  "engines": {
+    "node": "0.10.48", 
+    "npm": "2.15.1"
+  }
+}
