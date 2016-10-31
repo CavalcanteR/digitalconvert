@@ -1,5 +1,5 @@
 {
-    "name": "Gurusoft Digital Convert formats PDF, Word and more"
+    "name": "digitalconvert"
   , "version": "0.0.1"
   , "private": true
   , "dependencies": {
